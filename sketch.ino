@@ -49,7 +49,7 @@ void setup() {
     delay(100);
     Serial.print(".");
   }
-  Serial.println("Conectado ao WiFi com sucesso!"); // Considering that the loop above was exited, the ESP32 is now connected to WiFi (another option is to place this command inside the if below)
+  Serial.println("Conectado ao WiFi com sucesso!"); 
 
   // Checks button status
   buttonState = digitalRead(buttonPin);
